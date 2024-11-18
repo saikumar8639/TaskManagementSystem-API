@@ -65,6 +65,7 @@ def authenticate(f):
     return decorated_function
 
 @app.route("/")
+@authenticate
 def home():
     html_content = """
     <!DOCTYPE html>
