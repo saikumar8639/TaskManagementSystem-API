@@ -31,7 +31,7 @@ This project provides the API implementation for the Task Management System.
 
     ```bash
     python app.py
-   After successful execution of above command we can see output like:
+  After successful execution of above command we can see output like:
    ```bash
     * Running on http://127.0.0.1:5000
    Press CTRL+C to quit
