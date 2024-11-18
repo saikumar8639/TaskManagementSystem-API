@@ -6,3 +6,7 @@ This project provides the API implementation for the Task Management System.
 ## Table of Contents
 -[Installation](#installation)
 -[Usage](#usage)
+
+## Installation
+1. Clone the Repository:
+   
