@@ -18,3 +18,8 @@ This project provides the API implementation for the Task Management System.
     ```bash
     pip install -r requirements.txt
 
+3. Create the Virtual Environment
+    ```bash
+    virtualenv myEnv
+4. 
+
