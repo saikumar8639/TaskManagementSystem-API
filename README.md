@@ -11,3 +11,7 @@ This project provides the API implementation for the Task Management System.
 1. Clone the Repository:
     ```bash
     git clone https://github.com/saikumar8639/TaskManagementSystem-API.git
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+
