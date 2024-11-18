@@ -63,7 +63,7 @@ This project provides the API implementation for the Task Management System.
     ```
 
 ## Usage
-You can now use the API as described in the documentation to manage tasks, assign users, and perform other task management operations. For detailed API usage, refer to the [API Documentation](link-to-docs).
+You can now use the API as described in the documentation to manage tasks, assign users, and perform other task management operations. For detailed API usage, refer to the [API Documentation](https://github.com/saikumar8639/TaskManagementSystem-API/blob/2f1b28d707dc0cd0fae6b8f800f4c6ccf3d559af/Task%20Management%20API%20Documentation.pdf).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
