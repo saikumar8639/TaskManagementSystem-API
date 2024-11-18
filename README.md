@@ -27,4 +27,13 @@ This project provides the API implementation for the Task Management System.
     ```bash
     pip install -r requirements.txt
 
+5. After installing all the dependencies. Execute the following command.
 
+    ```bash
+    python app.py
+ After successful execution of above command we can see output like:
+ ```bash
+  * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
