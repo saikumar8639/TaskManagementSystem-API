@@ -1,0 +1,47 @@
+=========================================
+=  Task Management System Rest APIS		=
+=========================================
+
+=======
+About
+=======
+
+-> This text file contains the Commands to test the APIs of the Task Management System.
+
+-> Once after running "python app.py" you can run theese commands
+
+-> I have use sample data, those datas you can edit it according to your need.
+
+==================================================================================
+
+==========
+Commands
+==========
+
+-> to fetch the Home page using command prompt:-
+	
+	curl -u admin:1234 "http://127.0.0.1:5000/"
+
+-> POST Command:-
+	
+	curl -u admin:1234 -X POST -H  	"Content-Type: application/json" -d "{\"id\":2,\"title\":\"title 5\",\"description\":\"Sample Description 5\",\"due_date\":\"2024-11-22\", \"status\":\"pending\"}" http://127.0.0.1:5000/tasks
+
+-> PUT Command:-
+	
+	curl -u admin:1234 -X PUT -H "Content-Type: application/json" -d "{\"id\":5,\"title\":\"title 5\",\"description\":\"Sample Description 5\",\"due_date\":\"2024-11-22\",\"status\":\"pending\"}" http://127.0.0.1:5000/tasks/5
+
+-> PATCH Command:-
+	
+	curl -u admin:1234 -X PATCH -H "Content-Type: application/json" http://127.0.0.1:5000/tasks/5
+
+-> DELETE Command:-
+
+	curl -u admin:1234 -X DELETE -H "Content-Type: application/json" http://127.0.0.1:5000/tasks/5
+
+=============================================================================================================
+
+====
+END
+=====
+Thank You for your Time
+==========================
